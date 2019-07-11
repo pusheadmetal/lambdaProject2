@@ -111,31 +111,105 @@ header .logo {
 	margin-left:25px;
 }
 
-/*.cta{
-    display:flex;
+.cta{
+	display:flex;
 }
-*/
-.cta-text{
-    display:flex;
-    height:200px;
-    width: 410px;
-    font-size:40px;
+
+.cta .cta-text{
+    width: 800px;
     margin-right: 34px;
 }
 
-.main-content {
-    border-top: 1px solid black;
+.top-row{
+  border-top: 1px solid black;
+  margin-top: 76px;
+  padding-top: 39px;
+  display:flex;
+  justify-content: space-evenly;
+  
+}
+
+.top-row .boxes{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    border: 1px solid gray;
+    height: 400px;
+    width: 300px;
+    background-color: wheat;
+    margin: 50px, 200px, 50px, 200px;
+    padding: 50px;
+}
+
+.middle-row{
     margin-top: 76px;
     padding-top: 39px;
     display:flex;
-    justify-content:space-between;
-    flex-wrap:wrap;
-    width: 60%;
+    justify-content: space-evenly;
+    
   }
 
-.main-content .boxes{
+.middle-row .boxes{
     display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
     border: 1px solid gray;
-    width:20%;
-    background-color: blue;
+    height: 400px;
+    width: 300px;
+    background-color: wheat;
+    margin: 50px, 200px, 50px, 200px;
+    padding: 50px;
+}
+
+.bottom-row{
+    margin-top: 76px;
+    padding-top: 39px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    display:flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+    
+  }
+
+.bottom-row .boxes{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:space-between;
+        border: 1px solid gray;
+        height: 400px;
+        width: 300px;
+        background-color: wheat;
+        margin: 50px, 200px, 50px, 200px;
+        padding: 50px;
+}
+
+button{
+    border-radius:25px;
+    margin: 50px;
+}
+
+.bottom-page{
+    margin-top: 30px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    display: flex;
+}
+
+.bottom-page .bottom-page-txt{
+    width: 800px;
+    margin-right: 34px;
+}
+
+.bottom-page-txt ul{
+    margin-top:50px;
+    padding-top:25px;
+}
+.bottom-page img{
+    display:flex;
+}
+
+footer{
+    text-align:center;
 }
